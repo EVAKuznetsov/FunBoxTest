@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form add point renders form 1`] = `
+<form
+  className="form-group"
+  onSubmit={[Function]}
+>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;

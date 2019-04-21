@@ -1,0 +1,517 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Point list renders form 1`] = `
+<PointsList
+  delPoint={[MockFunction]}
+  onChangeOderPoints={[MockFunction]}
+  points={
+    Array [
+      Object {
+        "id": 990,
+        "label": "Первая точка",
+        "position": Array [
+          55.75,
+          37.68,
+        ],
+      },
+      Object {
+        "id": 991,
+        "label": "Вторая точка",
+        "position": Array [
+          55.77,
+          37.61,
+        ],
+      },
+    ]
+  }
+>
+  <DragDropContext
+    onDragEnd={[Function]}
+  >
+    <ErrorBoundary>
+      <App
+        onDragEnd={[Function]}
+        setOnError={[Function]}
+        uniqueId={0}
+      >
+        <Provider
+          context={
+            Object {
+              "$$typeof": Symbol(react.context),
+              "Consumer": Object {
+                "$$typeof": Symbol(react.context),
+                "_calculateChangedBits": null,
+                "_context": [Circular],
+              },
+              "Provider": Object {
+                "$$typeof": Symbol(react.provider),
+                "_context": [Circular],
+              },
+              "_calculateChangedBits": null,
+              "_currentRenderer": Object {},
+              "_currentRenderer2": null,
+              "_currentValue": null,
+              "_currentValue2": null,
+              "_threadCount": 0,
+            }
+          }
+          store={
+            Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            }
+          }
+        >
+          <ConnectFunction
+            direction="vertical"
+            droppableId="droppable"
+            ignoreContainerClipping={false}
+            isCombineEnabled={false}
+            isDropDisabled={false}
+            type="DEFAULT"
+          >
+            <Droppable
+              direction="vertical"
+              droppableId="droppable"
+              ignoreContainerClipping={false}
+              isCombineEnabled={false}
+              isDropDisabled={false}
+              placeholder={null}
+              shouldAnimatePlaceholder={true}
+              snapshot={
+                Object {
+                  "draggingFromThisWith": null,
+                  "draggingOverWith": null,
+                  "isDraggingOver": false,
+                }
+              }
+              type="DEFAULT"
+              updateViewportMaxScroll={[Function]}
+            >
+              <ul
+                className="list-group"
+              >
+                <ConnectFunction
+                  disableInteractiveElementBlocking={false}
+                  draggableId={990}
+                  index={0}
+                  isDragDisabled={false}
+                  key="990"
+                  shouldRespectForceTouch={true}
+                >
+                  <Draggable
+                    disableInteractiveElementBlocking={false}
+                    draggableId={990}
+                    drop={[Function]}
+                    dropAnimationFinished={[Function]}
+                    index={0}
+                    isDragDisabled={false}
+                    lift={[Function]}
+                    mapped={
+                      Object {
+                        "combineTargetFor": null,
+                        "offset": Object {
+                          "x": 0,
+                          "y": 0,
+                        },
+                        "shouldAnimateDisplacement": true,
+                        "snapshot": Object {
+                          "combineTargetFor": null,
+                          "combineWith": null,
+                          "draggingOver": null,
+                          "dropAnimation": null,
+                          "isDragging": false,
+                          "isDropAnimating": false,
+                          "mode": null,
+                        },
+                        "type": "SECONDARY",
+                      }
+                    }
+                    move={[Function]}
+                    moveByWindowScroll={[Function]}
+                    moveDown={[Function]}
+                    moveLeft={[Function]}
+                    moveRight={[Function]}
+                    moveUp={[Function]}
+                    shouldRespectForceTouch={true}
+                  >
+                    <li
+                      aria-roledescription="Draggable item. Press space bar to lift"
+                      className="list-group-item"
+                      data-react-beautiful-dnd-drag-handle="0"
+                      data-react-beautiful-dnd-draggable="0"
+                      draggable={false}
+                      onBlur={[Function]}
+                      onDragStart={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                      onTransitionEnd={null}
+                      style={
+                        Object {
+                          "transform": null,
+                          "transition": null,
+                        }
+                      }
+                      tabIndex={0}
+                    >
+                      Первая точка
+                      <button
+                        className="del-icon"
+                        onClick={[Function]}
+                      >
+                        x
+                      </button>
+                    </li>
+                  </Draggable>
+                </ConnectFunction>
+                <ConnectFunction
+                  disableInteractiveElementBlocking={false}
+                  draggableId={991}
+                  index={1}
+                  isDragDisabled={false}
+                  key="991"
+                  shouldRespectForceTouch={true}
+                >
+                  <Draggable
+                    disableInteractiveElementBlocking={false}
+                    draggableId={991}
+                    drop={[Function]}
+                    dropAnimationFinished={[Function]}
+                    index={1}
+                    isDragDisabled={false}
+                    lift={[Function]}
+                    mapped={
+                      Object {
+                        "combineTargetFor": null,
+                        "offset": Object {
+                          "x": 0,
+                          "y": 0,
+                        },
+                        "shouldAnimateDisplacement": true,
+                        "snapshot": Object {
+                          "combineTargetFor": null,
+                          "combineWith": null,
+                          "draggingOver": null,
+                          "dropAnimation": null,
+                          "isDragging": false,
+                          "isDropAnimating": false,
+                          "mode": null,
+                        },
+                        "type": "SECONDARY",
+                      }
+                    }
+                    move={[Function]}
+                    moveByWindowScroll={[Function]}
+                    moveDown={[Function]}
+                    moveLeft={[Function]}
+                    moveRight={[Function]}
+                    moveUp={[Function]}
+                    shouldRespectForceTouch={true}
+                  >
+                    <li
+                      aria-roledescription="Draggable item. Press space bar to lift"
+                      className="list-group-item"
+                      data-react-beautiful-dnd-drag-handle="0"
+                      data-react-beautiful-dnd-draggable="0"
+                      draggable={false}
+                      onBlur={[Function]}
+                      onDragStart={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                      onTransitionEnd={null}
+                      style={
+                        Object {
+                          "transform": null,
+                          "transition": null,
+                        }
+                      }
+                      tabIndex={0}
+                    >
+                      Вторая точка
+                      <button
+                        className="del-icon"
+                        onClick={[Function]}
+                      >
+                        x
+                      </button>
+                    </li>
+                  </Draggable>
+                </ConnectFunction>
+                <AnimateInOut
+                  on={null}
+                  shouldAnimate={true}
+                />
+              </ul>
+            </Droppable>
+          </ConnectFunction>
+        </Provider>
+      </App>
+    </ErrorBoundary>
+  </DragDropContext>
+</PointsList>
+`;
+
+exports[`Tests for Point list renders pointList 1`] = `
+<PointsList
+  delPoint={[MockFunction]}
+  onChangeOderPoints={[MockFunction]}
+  points={
+    Array [
+      Object {
+        "id": 990,
+        "label": "Первая точка",
+        "position": Array [
+          55.75,
+          37.68,
+        ],
+      },
+      Object {
+        "id": 991,
+        "label": "Вторая точка",
+        "position": Array [
+          55.77,
+          37.61,
+        ],
+      },
+    ]
+  }
+>
+  <DragDropContext
+    onDragEnd={[Function]}
+  >
+    <ErrorBoundary>
+      <App
+        onDragEnd={[Function]}
+        setOnError={[Function]}
+        uniqueId={0}
+      >
+        <Provider
+          context={
+            Object {
+              "$$typeof": Symbol(react.context),
+              "Consumer": Object {
+                "$$typeof": Symbol(react.context),
+                "_calculateChangedBits": null,
+                "_context": [Circular],
+              },
+              "Provider": Object {
+                "$$typeof": Symbol(react.provider),
+                "_context": [Circular],
+              },
+              "_calculateChangedBits": null,
+              "_currentRenderer": Object {},
+              "_currentRenderer2": null,
+              "_currentValue": null,
+              "_currentValue2": null,
+              "_threadCount": 0,
+            }
+          }
+          store={
+            Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            }
+          }
+        >
+          <ConnectFunction
+            direction="vertical"
+            droppableId="droppable"
+            ignoreContainerClipping={false}
+            isCombineEnabled={false}
+            isDropDisabled={false}
+            type="DEFAULT"
+          >
+            <Droppable
+              direction="vertical"
+              droppableId="droppable"
+              ignoreContainerClipping={false}
+              isCombineEnabled={false}
+              isDropDisabled={false}
+              placeholder={null}
+              shouldAnimatePlaceholder={true}
+              snapshot={
+                Object {
+                  "draggingFromThisWith": null,
+                  "draggingOverWith": null,
+                  "isDraggingOver": false,
+                }
+              }
+              type="DEFAULT"
+              updateViewportMaxScroll={[Function]}
+            >
+              <ul
+                className="list-group"
+              >
+                <ConnectFunction
+                  disableInteractiveElementBlocking={false}
+                  draggableId={990}
+                  index={0}
+                  isDragDisabled={false}
+                  key="990"
+                  shouldRespectForceTouch={true}
+                >
+                  <Draggable
+                    disableInteractiveElementBlocking={false}
+                    draggableId={990}
+                    drop={[Function]}
+                    dropAnimationFinished={[Function]}
+                    index={0}
+                    isDragDisabled={false}
+                    lift={[Function]}
+                    mapped={
+                      Object {
+                        "combineTargetFor": null,
+                        "offset": Object {
+                          "x": 0,
+                          "y": 0,
+                        },
+                        "shouldAnimateDisplacement": true,
+                        "snapshot": Object {
+                          "combineTargetFor": null,
+                          "combineWith": null,
+                          "draggingOver": null,
+                          "dropAnimation": null,
+                          "isDragging": false,
+                          "isDropAnimating": false,
+                          "mode": null,
+                        },
+                        "type": "SECONDARY",
+                      }
+                    }
+                    move={[Function]}
+                    moveByWindowScroll={[Function]}
+                    moveDown={[Function]}
+                    moveLeft={[Function]}
+                    moveRight={[Function]}
+                    moveUp={[Function]}
+                    shouldRespectForceTouch={true}
+                  >
+                    <li
+                      aria-roledescription="Draggable item. Press space bar to lift"
+                      className="list-group-item"
+                      data-react-beautiful-dnd-drag-handle="0"
+                      data-react-beautiful-dnd-draggable="0"
+                      draggable={false}
+                      onBlur={[Function]}
+                      onDragStart={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                      onTransitionEnd={null}
+                      style={
+                        Object {
+                          "transform": null,
+                          "transition": null,
+                        }
+                      }
+                      tabIndex={0}
+                    >
+                      Первая точка
+                      <button
+                        className="del-icon"
+                        onClick={[Function]}
+                      >
+                        x
+                      </button>
+                    </li>
+                  </Draggable>
+                </ConnectFunction>
+                <ConnectFunction
+                  disableInteractiveElementBlocking={false}
+                  draggableId={991}
+                  index={1}
+                  isDragDisabled={false}
+                  key="991"
+                  shouldRespectForceTouch={true}
+                >
+                  <Draggable
+                    disableInteractiveElementBlocking={false}
+                    draggableId={991}
+                    drop={[Function]}
+                    dropAnimationFinished={[Function]}
+                    index={1}
+                    isDragDisabled={false}
+                    lift={[Function]}
+                    mapped={
+                      Object {
+                        "combineTargetFor": null,
+                        "offset": Object {
+                          "x": 0,
+                          "y": 0,
+                        },
+                        "shouldAnimateDisplacement": true,
+                        "snapshot": Object {
+                          "combineTargetFor": null,
+                          "combineWith": null,
+                          "draggingOver": null,
+                          "dropAnimation": null,
+                          "isDragging": false,
+                          "isDropAnimating": false,
+                          "mode": null,
+                        },
+                        "type": "SECONDARY",
+                      }
+                    }
+                    move={[Function]}
+                    moveByWindowScroll={[Function]}
+                    moveDown={[Function]}
+                    moveLeft={[Function]}
+                    moveRight={[Function]}
+                    moveUp={[Function]}
+                    shouldRespectForceTouch={true}
+                  >
+                    <li
+                      aria-roledescription="Draggable item. Press space bar to lift"
+                      className="list-group-item"
+                      data-react-beautiful-dnd-drag-handle="0"
+                      data-react-beautiful-dnd-draggable="0"
+                      draggable={false}
+                      onBlur={[Function]}
+                      onDragStart={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                      onTransitionEnd={null}
+                      style={
+                        Object {
+                          "transform": null,
+                          "transition": null,
+                        }
+                      }
+                      tabIndex={0}
+                    >
+                      Вторая точка
+                      <button
+                        className="del-icon"
+                        onClick={[Function]}
+                      >
+                        x
+                      </button>
+                    </li>
+                  </Draggable>
+                </ConnectFunction>
+                <AnimateInOut
+                  on={null}
+                  shouldAnimate={true}
+                />
+              </ul>
+            </Droppable>
+          </ConnectFunction>
+        </Provider>
+      </App>
+    </ErrorBoundary>
+  </DragDropContext>
+</PointsList>
+`;
